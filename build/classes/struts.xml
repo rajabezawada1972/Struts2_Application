@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD   
+Struts Configuration 2.1//EN"   
+"http://struts.apache.org/dtds/struts-2.1.dtd">  
+<struts>  
+  
+<package name="anbc" extends="struts-default">  
+<action name="viewrecords" class="com.raja.controller.FetchAction">  
+<result name="SUCCESS">welcome.jsp</result>  
+<result name="ERROR">error.jsp</result> 
+</action>  
+</package>  
+  
+</struts>   
